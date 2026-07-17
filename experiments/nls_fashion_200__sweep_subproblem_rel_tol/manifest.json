@@ -1,0 +1,9 @@
+{
+  "save_name": "nls_fashion_200__sweep_subproblem_rel_tol",
+  "solvers": [
+    "alm_lbfgs_default__subproblem_rel_tol_1e-05",
+    "alm_lbfgs_default__subproblem_rel_tol_0.0001",
+    "alm_lbfgs_default__subproblem_rel_tol_0.001",
+    "alm_lbfgs_default__subproblem_rel_tol_0.01"
+  ]
+}

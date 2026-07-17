@@ -1,0 +1,8 @@
+{
+  "save_name": "helmholtz__sweep_tan_inner_tol",
+  "solvers": [
+    "pdn_ls_dual__tan_inner_tol_1000",
+    "pdn_ls_dual__tan_inner_tol_10000",
+    "pdn_ls_dual__tan_inner_tol_100000"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "save_name": "nls_fashion_200__sweep_tan_reg",
+  "solvers": [
+    "pdn_ls_dual__tan_reg_0.01",
+    "pdn_ls_dual__tan_reg_0.1",
+    "pdn_ls_dual__tan_reg_1",
+    "pdn_ls_dual__tan_reg_10",
+    "pdn_ls_dual__tan_reg_0"
+  ]
+}

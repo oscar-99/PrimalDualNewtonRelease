@@ -1,0 +1,59 @@
+{
+  "artifacts": {
+    "dual_star": "dual_star.npy",
+    "history": "history.npz",
+    "params_saved_as": "equinox",
+    "params_star": "params_star.eqx",
+    "params_star_flat": null
+  },
+  "experiment_metadata": {
+    "dataset": "fashion",
+    "n_lin_constraints": 200,
+    "seed": 0
+  },
+  "hyperparameters": {
+    "epsc": 1e-05,
+    "epsp": 1e-05,
+    "initial_penalty_parameter": 0.1,
+    "inner_breakdown_tol": 1e-16,
+    "inner_max_phase_iters": 985,
+    "inner_max_restarts": 20,
+    "inner_mu_increase_factor": 1.0,
+    "inner_mu_init": 0.0,
+    "inner_termination_params": {
+      "beta": 10.0,
+      "epsilon": 0.01,
+      "kappa": 0.01,
+      "psi": 10.0,
+      "sigma": 0.198,
+      "tau": 0.2,
+      "theta": 0.001
+    },
+    "max_backtracking_steps": 20,
+    "max_iters": 5000,
+    "max_time": 60.0,
+    "shrink_factor": 0.5,
+    "slope_rtol": 0.0001
+  },
+  "problem_name": "real_data_binary_classification",
+  "solver_metadata": {},
+  "solver_name": "sqp_default",
+  "status": "max_time",
+  "summary": {
+    "constraint_norm": 5.518221798001916e-05,
+    "dual_norm": 0.004309807192766852,
+    "iterations": 44,
+    "merit_parameter": 0.1692173023813468,
+    "objective_val": 0.01579493007154804,
+    "primal_gradient_norm": 0.000576672115117886,
+    "problem": "real_data_binary_classification",
+    "solver": "sqp_default",
+    "status": "max_time",
+    "step_size": 0.0625,
+    "test_accuracy": 0.9612143039703369,
+    "test_mse": 0.016167990083733746,
+    "total_time": 61.73513439996168,
+    "train_accuracy": 0.9629285335540771,
+    "train_mse": 0.01579493007154804
+  }
+}

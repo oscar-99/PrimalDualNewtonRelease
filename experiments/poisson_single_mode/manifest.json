@@ -1,0 +1,9 @@
+{
+  "save_name": "poisson_single_mode",
+  "solvers": [
+    "pdn_zero_dual",
+    "pdn_ls_dual",
+    "alm_lbfgs_default",
+    "sqp_default"
+  ]
+}

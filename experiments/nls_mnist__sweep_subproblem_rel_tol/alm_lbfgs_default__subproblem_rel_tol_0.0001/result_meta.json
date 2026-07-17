@@ -1,0 +1,61 @@
+{
+  "artifacts": {
+    "dual_star": "dual_star.npy",
+    "history": "history.npz",
+    "params_saved_as": "equinox",
+    "params_star": "params_star.eqx",
+    "params_star_flat": null
+  },
+  "experiment_metadata": {
+    "dataset": "mnist",
+    "n_lin_constraints": 20,
+    "seed": 0
+  },
+  "hyperparameters": {
+    "abs_tol": 0.0,
+    "curv_rtol": 0.9,
+    "epsc": 1e-05,
+    "epsp": 1e-05,
+    "feasibility_improvement_factor": 0.25,
+    "increase_factor": 2.0,
+    "initial_penalty": 1.0,
+    "max_iters": 2000,
+    "max_learning_rate": 1.0,
+    "max_linesearch_steps": 20,
+    "max_penalty": 10000.0,
+    "max_time": 60.0,
+    "memory_size": 20,
+    "penalty_increase_factor": 2.0,
+    "slope_rtol": 0.0001,
+    "subproblem_rel_tol": 0.0001,
+    "subproblem_tol_lower_bound": null,
+    "subproblem_tol_shrink_factor": 0.5,
+    "use_lbfgs_scaling": true,
+    "verbose_linesearch": false
+  },
+  "problem_name": "real_data_binary_classification",
+  "solver_metadata": {
+    "base_solver_name": "alm_lbfgs_default",
+    "sweep_param": "subproblem_rel_tol",
+    "sweep_value": 0.0001
+  },
+  "solver_name": "alm_lbfgs_default__subproblem_rel_tol_0.0001",
+  "status": "converged",
+  "summary": {
+    "constraint_norm": 3.230042483042493e-08,
+    "dual_norm": 0.004094648566013136,
+    "iterations": 1542,
+    "objective_val": 0.03819491797531538,
+    "penalty": 64.0,
+    "primal_gradient_norm": 8.865255225704272e-06,
+    "problem": "real_data_binary_classification",
+    "solver": "alm_lbfgs_default__subproblem_rel_tol_0.0001",
+    "status": "converged",
+    "step_size": null,
+    "test_accuracy": 0.8967856764793396,
+    "test_mse": 0.04045451647593784,
+    "total_time": 48.44009510311298,
+    "train_accuracy": 0.9023571610450745,
+    "train_mse": 0.03819491797531538
+  }
+}

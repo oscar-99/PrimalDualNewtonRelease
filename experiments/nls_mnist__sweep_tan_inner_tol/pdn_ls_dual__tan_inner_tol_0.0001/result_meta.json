@@ -1,0 +1,59 @@
+{
+  "artifacts": {
+    "dual_star": "dual_star.npy",
+    "history": "history.npz",
+    "params_saved_as": "equinox",
+    "params_star": "params_star.eqx",
+    "params_star_flat": null
+  },
+  "experiment_metadata": {
+    "dataset": "mnist",
+    "n_lin_constraints": 20,
+    "seed": 0
+  },
+  "hyperparameters": {
+    "dual_update": "ls",
+    "epsc": 1e-05,
+    "epsp": 1e-05,
+    "fw_track": true,
+    "initial_merit_param": 1e-06,
+    "max_backtracking_steps": 20,
+    "max_forward_tracking_steps": 20,
+    "max_iters": 2000,
+    "max_time": 60.0,
+    "merit_param_update_factor": 0.1,
+    "merit_shrink": 1.0,
+    "nc_tol": 0.0,
+    "rank_tol": 1e-10,
+    "shrink_factor": 0.5,
+    "slope_rtol": 0.0001,
+    "tan_inner_tol": 0.0001,
+    "tan_max_inner_iters": 784,
+    "tan_reg": 0.0
+  },
+  "problem_name": "real_data_binary_classification",
+  "solver_metadata": {
+    "base_solver_name": "pdn_ls_dual",
+    "sweep_param": "tan_inner_tol",
+    "sweep_value": 0.0001
+  },
+  "solver_name": "pdn_ls_dual__tan_inner_tol_0.0001",
+  "status": "converged",
+  "summary": {
+    "constraint_norm": 2.7232649764119547e-06,
+    "dual_norm": 0.004095241569020667,
+    "iterations": 37,
+    "merit_parameter": 0.005763364306872057,
+    "objective_val": 0.038194905793385685,
+    "problem": "real_data_binary_classification",
+    "proj_gradient_norm": 3.4679967633501235e-06,
+    "solver": "pdn_ls_dual__tan_inner_tol_0.0001",
+    "status": "converged",
+    "step_size": null,
+    "test_accuracy": 0.8967142701148987,
+    "test_mse": 0.04045453551362154,
+    "total_time": 7.073477400233969,
+    "train_accuracy": 0.9023749828338623,
+    "train_mse": 0.038194905793385685
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "save_name": "nls_mnist__sweep_tan_inner_tol",
+  "solvers": [
+    "pdn_ls_dual__tan_inner_tol_0.1",
+    "pdn_ls_dual__tan_inner_tol_0.01",
+    "pdn_ls_dual__tan_inner_tol_0.001",
+    "pdn_ls_dual__tan_inner_tol_0.0001"
+  ]
+}

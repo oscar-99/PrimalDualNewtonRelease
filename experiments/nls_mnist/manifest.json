@@ -1,0 +1,9 @@
+{
+  "save_name": "nls_mnist",
+  "solvers": [
+    "pdn_zero_dual",
+    "pdn_ls_dual",
+    "sqp_default",
+    "alm_lbfgs_default"
+  ]
+}

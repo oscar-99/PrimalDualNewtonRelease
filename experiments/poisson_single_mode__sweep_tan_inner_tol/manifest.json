@@ -1,0 +1,9 @@
+{
+  "save_name": "poisson_single_mode__sweep_tan_inner_tol",
+  "solvers": [
+    "pdn_ls_dual__tan_inner_tol_0.01",
+    "pdn_ls_dual__tan_inner_tol_0.1",
+    "pdn_ls_dual__tan_inner_tol_1",
+    "pdn_ls_dual__tan_inner_tol_10"
+  ]
+}

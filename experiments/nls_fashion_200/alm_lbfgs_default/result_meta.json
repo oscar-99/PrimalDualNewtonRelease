@@ -1,0 +1,57 @@
+{
+  "artifacts": {
+    "dual_star": "dual_star.npy",
+    "history": "history.npz",
+    "params_saved_as": "equinox",
+    "params_star": "params_star.eqx",
+    "params_star_flat": null
+  },
+  "experiment_metadata": {
+    "dataset": "fashion",
+    "n_lin_constraints": 200,
+    "seed": 0
+  },
+  "hyperparameters": {
+    "abs_tol": 0.0,
+    "curv_rtol": 0.9,
+    "epsc": 1e-05,
+    "epsp": 1e-05,
+    "feasibility_improvement_factor": 0.25,
+    "increase_factor": 2.0,
+    "initial_penalty": 1.0,
+    "max_iters": 5000,
+    "max_learning_rate": 1.0,
+    "max_linesearch_steps": 20,
+    "max_penalty": 10000.0,
+    "max_time": 60.0,
+    "memory_size": 20,
+    "penalty_increase_factor": 2.0,
+    "slope_rtol": 0.0001,
+    "subproblem_rel_tol": 1e-05,
+    "subproblem_tol_lower_bound": null,
+    "subproblem_tol_shrink_factor": 0.5,
+    "use_lbfgs_scaling": true,
+    "verbose_linesearch": false
+  },
+  "problem_name": "real_data_binary_classification",
+  "solver_metadata": {},
+  "solver_name": "alm_lbfgs_default",
+  "status": "max_time",
+  "summary": {
+    "constraint_norm": 1.606823347855952e-05,
+    "dual_norm": 0.004427228942026637,
+    "iterations": 2218,
+    "objective_val": 0.01577426032395812,
+    "penalty": 64.0,
+    "primal_gradient_norm": 0.0009342241639824407,
+    "problem": "real_data_binary_classification",
+    "solver": "alm_lbfgs_default",
+    "status": "max_time",
+    "step_size": 1.0,
+    "test_accuracy": 0.9611428380012512,
+    "test_mse": 0.016192318232391072,
+    "total_time": 60.020231899339706,
+    "train_accuracy": 0.9629285335540771,
+    "train_mse": 0.01577426032395812
+  }
+}

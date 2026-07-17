@@ -1,0 +1,9 @@
+{
+  "save_name": "helmholtz_long_run",
+  "solvers": [
+    "pdn_zero_dual",
+    "pdn_ls_dual",
+    "alm_lbfgs_default",
+    "sqp_default"
+  ]
+}
